@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Name": "Move everything visible",
+        "Description": "Move all visible windows at once to another desktop",
+        "Icon": "preferences-desktop-virtual",
+        "Authors": [
+            {
+                "Email": "stephan.sahm@jolin.io",
+                "Name": "Stephan Sahm"
+            }
+        ],
+        "Id": "move-everything-visible",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.0",
+        "Licsense": "GPLv3",
+        "Website": "https://github.com/schlichtanders/kwin-move-everything-visible"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
